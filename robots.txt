@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://www.3chome.cc/sitemap.xml
+Sitemap: https://www.3chome.cc/sitemap.xml

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>3chome&#39;s blog</title>
+  
+  
+  <link href="https://www.3chome.cc/atom.xml" rel="self"/>
+  
+  <link href="https://www.3chome.cc/"/>
+  <updated>2021-07-04T13:56:48.987Z</updated>
+  <id>https://www.3chome.cc/</id>
+  
+  <author>
+    <name>3chome</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>midia test</title>
+    <link href="https://www.3chome.cc/posts/midia-test/"/>
+    <id>https://www.3chome.cc/posts/midia-test/</id>
+    <published>2021-03-15T13:24:39.000Z</published>
+    <updated>2021-07-04T13:56:48.987Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>测试hexo是否正常添加音乐与视频（基于<a href="https://github.com/MoePlayer/hexo-tag-aplayer">aplayer</a>与<a href="https://github.com/MoePlayer/hexo-tag-dplayer">dplayer</a>）</p><span id="more"></span><h2 id="音乐测试"><a href="#音乐测试" class="headerlink" title="音乐测试"></a>音乐测试</h2><p>源地址 <a href="https://music.163.com/#/song?id=28854089">网易云</a></p><div id="aplayer-dsHJpuSM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:00.00] 作词 : 北白川雛子[00:02.37]眩しくひかる[00:07.65]あなたの言葉[00:13.11]瞬きしてる[00:18.36]私のもとへ[00:24.00]私の歌は[00:29.40]あなたのもとへ</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-dsHJpuSM"),narrow: false,autoplay: false,showlrc: 2,music: {title: "豆大さんへ～「きらきら星」より",author: "日笠陽子",url: "https://share.3chome.cc/blog/midia-test/music.flac",pic: "https://share.3chome.cc/blog/midia-test/music.jpg",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><h2 id="视频测试"><a href="#视频测试" class="headerlink" title="视频测试"></a>视频测试</h2><p>源地址 <a href="https://youtu.be/1cGQotpn8r4">youtube</a></p><h3 id="ツユ-ロックな君とはお別れだ"><a href="#ツユ-ロックな君とはお別れだ" class="headerlink" title="ツユ - ロックな君とはお別れだ"></a>ツユ - ロックな君とはお別れだ</h3><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"https://share.3chome.cc/blog/midia-test/video.mp4","pic":"https://share.3chome.cc/blog/midia-test/video.png"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><p>安装方式：hexo根目录下运行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-dplayer --save</span><br><span class="line">npm install hexo-tag-aplayer --save</span><br></pre></td></tr></table></figure><p>使用方法见官方文档</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;测试hexo是否正常添加音乐与视频（基于&lt;a href=&quot;https://github.com/MoePlayer/hexo-tag-aplayer&quot;&gt;aplayer&lt;/a&gt;与&lt;a href=&quot;https://github.com/MoePlayer/hexo-tag-dplayer&quot;&gt;dplayer&lt;/a&gt;）&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="测试" scheme="https://www.3chome.cc/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.3chome.cc/posts/hello-world/"/>
+    <id>https://www.3chome.cc/posts/hello-world/</id>
+    <published>2021-03-04T13:53:03.000Z</published>
+    <updated>2021-07-04T12:25:12.441Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="测试" scheme="https://www.3chome.cc/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
